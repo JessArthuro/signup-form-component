@@ -276,6 +276,11 @@ footer .attribution a:hover {
 }
 
 @media (max-width: 28.125rem) {
+  body {
+    background-image: url(../images/bg-intro-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   main .titles-section,
   main .form-section {
     padding: 2rem 1.4rem;
